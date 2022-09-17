@@ -1,0 +1,339 @@
+* {
+  margin: 0%;
+
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navfather{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar {
+  width: 100vw;
+  background-color: #1b2530;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-item {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-item {
+  width: 28%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+img {
+  width: 12vw;
+  height: 5vh;
+  margin-left: 30px;
+}
+
+.homeline {
+  color: white;
+  text-decoration: none;
+}
+
+.try {
+  width: 8vw;
+  height: 4.5vh;
+  background-color: #1584bb;
+  border-radius: 5px;
+  border: none;
+
+  color: rgb(196, 189, 189);
+}
+
+.search-box {
+  color: rgb(196, 189, 189);
+  font-size: 1.5vw;
+}
+
+.globe {
+  color: rgb(196, 189, 189);
+  font-size: 1.5vw;
+  text-decoration: none;
+  display: flex;
+}
+
+.user {
+  color: rgb(196, 189, 189);
+  font-size: 1.5vw;
+}
+
+
+/* HERO-SECTION */
+
+
+
+.img_1 {
+  background-image: url(img1.jpg);
+  width: 100%;
+  height: 80vh;
+}
+
+.section-1-text h2 {
+  color: whitesmoke;
+
+  padding-left: 5%;
+  padding-top: 13%;
+  font-size: 40px;
+  font-weight: initial;
+}
+
+.section-1-text p {
+  color: whitesmoke;
+  font-size: 23px;
+  padding-left: 5%;
+}
+
+.section-1-text button {
+  width: 300px;
+  height: 45px;
+  color: white;
+  background-color: #00a0d6;
+  margin-left: 65px;
+  margin-top: 10px;
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+#p1 {
+  font-size: medium;
+  margin-left: 22px;
+  margin-top: 5px;
+  font-weight: lighter;
+  font-size: large;
+}
+
+
+/* SECTION-2  */
+
+
+.img_2 {
+  background-image: url(TVOD_MLP.jpg);
+  width: 100%;
+  height: 88vh;
+  background-repeat: no-repeat;
+  /* display: flex; */
+
+}
+.section-2-text{
+  padding: 80px;
+}
+
+.section-2-text h2 {
+  color: white;
+  padding-bottom: 30px;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.section-2-text p {
+  color: white;
+
+  padding-bottom: 30px;
+  font-size: 130%;
+  font-weight: 100;
+}
+
+.section-2-text button {
+
+  width: 250px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: #0f79af;
+  color: white;
+  font-size: 100%;
+}
+
+.section-3 {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+}
+
+.text-area {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.text-area h1 {
+  position: relative;
+  bottom: 50px;
+  right: 30px;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.text-area h2 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.images {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+
+  
+}
+.images img {
+  width: 190px;
+  height: 130px;
+  padding: 0;
+  margin: 2px;
+  
+}
+.images img:hover {
+   box-shadow: -1px 4px 42px -1px rgba(0, 0, 0, 0.55);
+   width: 195px;
+   height: 135px;
+   transition: all 3s all;
+  /* height: 150px; */
+
+/* box-shadow: -1px 4px 42px -1px rgba(0, 0, 0, 0.55); */
+
+}
+
+.section-4{
+ background-image: url(images/MLP_Template_Image_Left._SX1440_CR00865675_QL80_AC_FP_.jpg);
+ width: 100%;
+ height: 78vh;
+ color: white;
+ background-color: black;
+background-repeat: no-repeat;
+
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+
+
+.sec-4-text{
+  width: 45%;
+  height: auto;
+}
+.section-4 h1{
+  font-size: 35px;
+  font-weight: 500;
+
+}
+.section-4 p{
+  font-size: 20px;
+ 
+  margin-top:  30px;
+  line-height: 30px;
+  font-weight: 100;
+}
+.sec-4-text button{
+  width: 280px;
+  height: 60px;
+  background-color:#0F79AF;
+  margin: 30px 0;
+  border-radius: 4px;
+  color: white;
+  font-size: larger;
+}
+.section-5{
+  background-image: url(images/IN-kids-30Jan._CB1517304519_.jpg);
+  width: 100%;
+  height: 78vh;
+  
+ color: white;
+ 
+ display: flex; 
+ display: inline-block;
+ margin: 0;
+ padding: 0; 
+}
+.sec-5-text{
+  width: 45%;
+  margin: 5%;
+}
+.section-5 h1{
+  font-size: 45px;
+  font-weight: 200;
+}
+.section-5 h6{
+  font-size: 23px;
+  
+  margin-top:  30px;
+  line-height: 28px;
+  font-weight:lighter;
+}
+.section-5 button{
+  width: 280px;
+  height: 60px;
+  background-color:#0F79AF;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: white;
+  font-size: larger;
+}
+footer{
+  width: 100%;
+  height: auto;
+  background-color:#222222;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  align-items: center;
+   justify-content: center; 
+  text-align: center;
+ font-size: 15px;
+
+}
+.footer-text a{
+  text-decoration: none;
+  color: #00a0d6;
+}
+
+.footer-text{
+  margin-left: 100px;
+ color: rgb(177, 169, 169);
+ word-spacing: 1px;
+ padding: 2%;
+ margin: 0%;
+}
+.footer-text p{
+  margin: 10px 0;
+}
+ .footer-text img {
+  width: 120px;
+  height: 40px;
+  margin-bottom: 10px;
+  
+  
+}
